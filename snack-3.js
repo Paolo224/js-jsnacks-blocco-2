@@ -23,7 +23,9 @@ let media = 0;
 
 for( let i = 0; i < 10; i++){
     somma += numbers[i];
-    media += (numbers[i]) / 10;
 }
+
+media = somma / 10;
+
 console.log(somma);
 console.log(media);
