@@ -1,5 +1,5 @@
 
-const number = [
+const numbers = [
     1,
     2,
     3,
@@ -22,9 +22,13 @@ const number = [
     20,
 ];
 
-for( i = 0; i < number.length; i++){
+let somma = 0;
 
-    if(number[i] % 2 != 0){
-        console.log(number[i]);
+for( i = 0; i < numbers.length; i++){
+
+    if(i % 2 != 0){
+        somma += numbers[i];
     }
 }
+
+console.log(somma)
